@@ -19,7 +19,7 @@ print(f"{my_person.name} {my_person.surname}")
 
 class Person:
     def __init__(self, name, surname, alias = "Sin alias") -> None:
-        self.full_name = f"{name} {surname} {alias}"
+        self.full_name = f"{name} {surname} ({alias})"
     
     def walk(self):
         print(f"{self.full_name} esta caminando")
